@@ -201,6 +201,20 @@ This skill is available as a standalone repo for any Hermes user:
 git clone https://github.com/stansz/hermes-frontend-review.git ~/.hermes/skills/frontend-review
 ```
 
+### Full Mode Setup (Optional)
+
+Full mode (browser audit with screenshots) requires a BrowserBase API key. Quick mode works without it.
+
+1. Sign up at [browserbase.com](https://browserbase.com) (free tier: 1,000 calls/month)
+2. Get your API key from Settings → [browserbase.com/settings](https://browserbase.com/settings)
+3. Add to `~/.hermes/.env`:
+
+```
+BROWSERBASE_API_KEY=your-key-here
+```
+
+Without this, Hermes will only offer Quick mode — still 70% coverage.
+
 ## Keeping Rules Current
 
 AI models evolve and so do their tells. Impeccable's antipattern registry is actively maintained. To check for new rules:

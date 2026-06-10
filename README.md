@@ -12,6 +12,22 @@ git clone https://github.com/stansz/hermes-frontend-review.git ~/.hermes/skills/
 
 Restart Hermes (or reload skills). Done.
 
+### Optional: Enable Full (browser) mode
+
+Full mode needs a BrowserBase API key for live page auditing. Quick mode works without it.
+
+1. Sign up at [browserbase.com](https://browserbase.com) (free tier: 1,000 calls/month)
+2. Copy your API key from [browserbase.com/settings](https://browserbase.com/settings)
+3. Add it to your Hermes `.env` file:
+
+```bash
+echo 'BROWSERBASE_API_KEY=your-key-here' >> ~/.hermes/.env
+```
+
+Without this, only Quick mode is available — still catches ~70% of issues.
+
+## Usage
+
 ```
 review this site https://ogsapps.cc
 audit my frontend /path/to/project
