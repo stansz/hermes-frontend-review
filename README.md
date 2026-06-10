@@ -4,15 +4,13 @@ A [Hermes](https://github.com/NousResearch/hermes-agent) skill that reviews any 
 
 ## Quick Start
 
-1. Copy this directory into your Hermes skills folder:
+One command:
 
 ```bash
-cp -r hermes-frontend-review ~/.hermes/skills/frontend-review
+git clone https://github.com/stansz/hermes-frontend-review.git ~/.hermes/skills/frontend-review
 ```
 
-2. Restart Hermes (or reload skills) and you're done.
-
-3. Use it naturally:
+Restart Hermes (or reload skills). Done.
 
 ```
 review this site https://ogsapps.cc
