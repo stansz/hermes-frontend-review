@@ -135,7 +135,6 @@ This skill incorporates anti-pattern knowledge from the following open-source pr
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) by Leon Lin | MIT | 6 design curriculum rules for typography, aesthetics, and visual details |
 | [axe-core](https://github.com/dequelabs/axe-core) by Deque Labs | MPL 2.0 | 10 accessibility rules based on WCAG standards |
 | [webhint](https://github.com/webhintio/hint) by webhint.io | Apache 2.0 | 1 security rule (tabnabbing prevention) |
-| [Understand Anything](https://github.com/Lum1104/Understand-Anything) by Lum1104 | MIT | Hermes skill integration patterns and agent skill conventions |
 
 All adapted rules are re-expressed in our own format. This project does not include unmodified source code from any upstream project.
 
