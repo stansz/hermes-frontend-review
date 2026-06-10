@@ -193,6 +193,14 @@ Criteria:
 - **Full mode uses resources.** BrowserBase Fetch (free tier: 1,000 calls), browser sessions (token cost), and vision analysis. Worth it for comprehensive audit of a live page.
 - **Every finding must have a fix suggestion.** "The heading is wrong" is useless. "Change h3 to h2 at src/pages/pricing.astro:45" is useful.
 
+## Installation
+
+This skill is available as a standalone repo for any Hermes user:
+
+```bash
+git clone https://github.com/stansz/hermes-frontend-review.git ~/.hermes/skills/frontend-review
+```
+
 ## Keeping Rules Current
 
 AI models evolve and so do their tells. Impeccable's antipattern registry is actively maintained. To check for new rules:
